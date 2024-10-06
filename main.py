@@ -81,9 +81,10 @@ def display_data_and_controls(df):
 
     with col1:
         st.write("Data Preview")
-        st.dataframe(df, height=400)
+        st.dataframe(df, height=300)
 
     with col2:
+        st.write("Plot Details")
         columns = df.columns.tolist()
         x_axis = st.selectbox('Select the X-axis', options=columns + ["None"])
         y_axis = st.selectbox('Select the Y-axis', options=columns + ["None"])
