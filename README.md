@@ -1,5 +1,5 @@
 
-#📊 Data Visualizer
+##📊 Data Visualizer
 
 📊 A web application built with Streamlit for visualizing data uploaded by users. This application supports various file formats, allowing users to generate different types of plots and create pivot tables for analysis.
 
