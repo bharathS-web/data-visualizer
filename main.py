@@ -37,7 +37,7 @@ def read_uploaded_file(uploaded_file):
         st.error(f"Error loading file: {str(e)}")
         return None
 
-# --- Plotting Functions ---
+# --- Plotting Functions --- 
 
 def create_plot(df, x_axis, y_axis, plot_type, plot_title):
     fig, ax = plt.subplots(figsize=(10, 6))
